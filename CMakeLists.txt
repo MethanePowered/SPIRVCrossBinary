@@ -1,5 +1,6 @@
 if (POLICY CMP0114)
-    cmake_policy(SET CMP0114 NEW) # 'ExternalProject' step targets fully adopt their steps, support new CMake build system
+    # 'ExternalProject' step targets fully adopt their steps, support new CMake build system
+    cmake_policy(SET CMP0114 NEW)
 endif()
 
 set(TARGET SPIRV)
@@ -16,6 +17,10 @@ elseif(APPLE)
     set(BINARIES_MD5 f7fc05c7e0eccca52fd88be047d08335)
     set(BINARIES_DIR ${CMAKE_CURRENT_SOURCE_DIR}/binaries/MacOS)
 
+else()
+    
+    message(FATAL_ERROR "SPIRV Cross is not available for Linux")
+
 endif()
 
 ExternalProject_Add(${TARGET}
@@ -24,6 +29,7 @@ ExternalProject_Add(${TARGET}
     SOURCE_DIR ${BINARIES_DIR}
     BUILD_IN_SOURCE TRUE
     EXCLUDE_FROM_ALL TRUE
+    DOWNLOAD_EXTRACT_TIMESTAMP TRUE
     CONFIGURE_COMMAND ""
     BUILD_COMMAND ""
     STEP_TARGETS build
