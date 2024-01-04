@@ -9,7 +9,7 @@ include(ExternalProject)
 
 if (WIN32)
 
-    set(BINARIES_MD5 6c989bbc6100b8b2c60470dc30cd4001)
+    set(BINARIES_MD5 6b97e67c77be412b0604cc7d2f12c677)
     set(BINARIES_DIR ${CMAKE_CURRENT_SOURCE_DIR}/binaries/Windows)
 
 elseif(APPLE)
