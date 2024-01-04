@@ -14,7 +14,7 @@ if (WIN32)
 
 elseif(APPLE)
 
-    set(BINARIES_MD5 f7fc05c7e0eccca52fd88be047d08335)
+    set(BINARIES_MD5 2a7c758626b26b9540c290c0643c136d)
     set(BINARIES_DIR ${CMAKE_CURRENT_SOURCE_DIR}/binaries/MacOS)
 
 else()

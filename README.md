@@ -1,3 +1,3 @@
 # SPIRV-Cross Binary
 
-Pre-built binaries of [SPIRV-Cross 2020-01-16](https://github.com/KhronosGroup/SPIRV-Cross/releases/tag/2020-01-16) and [GLSLang 8.13.3559](https://github.com/KhronosGroup/glslang/releases/tag/8.13.3559) tools for Windows and MacOS.
+[SPIRV-Cross vulkan-sdk-1.3.268.0](https://github.com/KhronosGroup/SPIRV-Cross/releases/tag/vulkan-sdk-1.3.268.0) pre-built binary for MacOS and Windows.

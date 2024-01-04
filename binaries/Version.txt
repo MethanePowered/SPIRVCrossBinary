@@ -1,3 +1,1 @@
-SPIRV-Cross 2020-01-16: https://github.com/KhronosGroup/SPIRV-Cross/releases/tag/2020-01-16
-
-GLSLang 8.13.3559 (2020-01-06): https://github.com/KhronosGroup/glslang/releases/tag/8.13.3559
+SPIRV-Cross vulkan-sdk-1.3.268.0: https://github.com/KhronosGroup/SPIRV-Cross/releases/tag/vulkan-sdk-1.3.268.0
